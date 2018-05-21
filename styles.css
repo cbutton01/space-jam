@@ -1,11 +1,35 @@
 .circle {
-  display: flex;
+  text-align: center;
+  font-size: 24px;
   border: 2px solid blue;
 }
 
 .item {
-  font-size: 24px;
   background-color: salmon;
-  border-radius: 5px;
+  border-radius: 50PX;
   margin: 5px;
+  width: 40px;
+  height: auto;
+
+}
+
+
+/* flex  */
+
+.circle {
+  height: 500px;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: space-between;
+  flex-direction: column;
+}
+
+.item {
+  display: flex;
+  margin-top: 20px;
+}
+
+.item:nth-child(n+5){
+  display: flex;
+  flex-direction: column-reverse;
 }
