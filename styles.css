@@ -1,80 +1,99 @@
 #pressBox {
   height:56px;
   width: 131px;
+  align-self: flex-start;
+  transform: translateX(-3em) translateY(2em);
 }
 
 #jamCentral {
   height:67px;
   width: 55px;
+  transform: translateX(-1em) translateY(1em);
 }
 
 #behindJam {
   height: 63px;
   width: 67px;
+  transform: translateX(-2em) translateY(3em);
 }
 
 #sitemap {
   height: 67px;
   width: 104px;
+  transform: translateX(-2em) translateY(4em);
 }
 
 #souvenirs {
   height: 83px;
   width: 83px;
+  transform: translateX(-3em) translateY(-1em);
 }
 
 #studioStore {
   height: 72px;
   width: 94px;
+  transform: translateX(1em) translateY(0);
 }
 
 #juniorJam {
   height: 57px;
   width: 49px;
+  transform: translateX(-3em) translateY(-5em);
 }
 
 #jumpStation {
   height: 52px;
   width: 58px;
+  transform: translateX(4em) translateY(3em);
 }
 
 #logo {
   height: 165px;
   width: 272px;
+  transform: translateX(0) translateY(0);
 }
 
 #lineUp {
   height: 52px;
   width: 63px;
+  transform: translateX(-3em) translateY(2em);
 }
 
 #lunarTunes {
   height:77px;
   width: 95px;
+  align-self: flex-end;
+  transform: translateX(4em) translateY(2em);
 }
 
 #bBall {
   height: 62px;
   width: 62px;
+  transform: translateX(3em) translateY(0.5em);
 }
 
-.circle {
-  text-align: center;
-  font-size: 24px;
-  border: 2px solid blue;
-  border-radius: 50px;
-}
-
-/* flex  */
-
-.circle {
-  height: 500px;
+.row {
   display: flex;
-  flex-wrap: wrap;
-  align-content: space-between;
-  flex-direction: column;
+  padding: 10px;
+  align-self: center;
+
 }
 
-.item {
-  margin-top: 20px;
+.row img {
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.circle {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-wrap: nowrap;
+  border-radius: 50px;
+  height: 500px;
+  margin-top: 30px;
+}
+
+body {
+  background-image: url("https://www.warnerbros.com/archive/spacejam/movie/img/bg_stars.gif");
 }
