@@ -1,7 +1,6 @@
 #pressBox {
   height:56px;
   width: 131px;
-  align-self: flex-start;
   transform: translateX(-3em) translateY(2em);
 }
 
@@ -62,7 +61,6 @@
 #lunarTunes {
   height:77px;
   width: 95px;
-  align-self: flex-end;
   transform: translateX(4em) translateY(2em);
 }
 
@@ -76,12 +74,8 @@
   display: flex;
   padding: 10px;
   align-self: center;
-
-}
-
-.row img {
-  display: flex;
   flex-wrap: nowrap;
+
 }
 
 .circle {
