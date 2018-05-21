@@ -1,18 +1,69 @@
+#pressBox {
+  height:56px;
+  width: 131px;
+}
+
+#jamCentral {
+  height:67px;
+  width: 55px;
+}
+
+#behindJam {
+  height: 63px;
+  width: 67px;
+}
+
+#sitemap {
+  height: 67px;
+  width: 104px;
+}
+
+#souvenirs {
+  height: 83px;
+  width: 83px;
+}
+
+#studioStore {
+  height: 72px;
+  width: 94px;
+}
+
+#juniorJam {
+  height: 57px;
+  width: 49px;
+}
+
+#jumpStation {
+  height: 52px;
+  width: 58px;
+}
+
+#logo {
+  height: 165px;
+  width: 272px;
+}
+
+#lineUp {
+  height: 52px;
+  width: 63px;
+}
+
+#lunarTunes {
+  height:77px;
+  width: 95px;
+}
+
+#bBall {
+  height: 62px;
+  width: 62px;
+}
+
 .circle {
   text-align: center;
   font-size: 24px;
   border: 2px solid blue;
+  border-radius: 50px;
 }
-
-.item {
-  background-color: salmon;
-  border-radius: 50PX;
-  margin: 5px;
-  width: 40px;
-  height: auto;
-
-}
-
 
 /* flex  */
 
@@ -26,8 +77,4 @@
 
 .item {
   margin-top: 20px;
-}
-
-.item:nth-child(n+5){
-  flex-direction: column-reverse;
 }
